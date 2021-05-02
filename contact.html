@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link href="contact.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <form id="form">
+        <label for="fullName" id="fullName">Full name * :</label><br />
+        <input type="text" name="fullName" /><br />
+        <p id="nameError" class="form-error">Please enter your full name.</p>
+        <label for="subject" id="subject">Subject:</label><br />
+        <input type="text" name="subject" /><br />
+        <p id="subjectError" class="form-error">
+          You must enter a minimum of 10 characters.
+        </p>
+        <label for="email" id="email">E-mail Address:</label><br />
+        <input type="text" name="email" /><br />
+        <p id="emailError" class="form-error">
+          Please enter a valid email address.
+        </p>
+        <label for="address" id="address">Address:</label><br />
+        <input type="text" name="address" /><br />
+        <p id="addressError" class="form-error">
+          Please enter a valid address.
+        </p>
+      </form>
+      <p>* Indicates required field</p>
+      <button>Submit</button>
+    </main>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

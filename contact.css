@@ -1,0 +1,20 @@
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+input {
+  margin: 10px 0;
+}
+
+form {
+  background-color: darkgray;
+  max-width: 200px;
+  padding: 50px;
+}
+
+label {
+  font-weight: 700;
+}
